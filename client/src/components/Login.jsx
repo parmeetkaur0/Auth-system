@@ -87,7 +87,7 @@ const Login = ({ setIsAuthenticated }) => {
                 <input
                   type="email"
                   name="email"
-                  placeholder="username"
+                  placeholder="email"
                   value={formData.email}
                   onChange={handleChange}
                   required
